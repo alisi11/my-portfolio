@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "home": "Home",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact Me"
+  },
+  "common": {
+    "name": "Ali Sobouhi",
+    "role": "Front-End Developer & Team Lead",
+    "available": "Available for work",
+    "status": "Tehran, Iran",
+    "copyEmail": "Copy email",
+    "emailCopied": "Email copied to clipboard!",
+    "downloadResume": "Download Resume",
+    "about": "About",
+    "readMore": "Read More",
+    "downloadSub": "Get the printer-friendly PDF file.",
+    "soon": "Soon :)",
+    "copyright": "Built with React & Tailwind · Made by Ali Sobouhi · © 2026",
+    "noData": "No data found."
+  },
+  "home": {
+    "welcome": "🙋‍♂️ Hey! I'm Ali",
+    "intro": "As a Front-End Developer and Team Lead with 4+ years of professional experience, I specialize in building scalable, high-performance web applications. My focus lies in React, TypeScript, and modern state-management systems, delivering complex national-scale platforms like Iran's Ministry of Health portals. I bridge pixel-perfect UI designs with clean, component-based architectures.",
+    "selectedWork": "Selected Work"
+  },
+  "resume": {
+    "title": "Resume",
+    "subtitle": "Discover my journey as a Team Lead and Senior Frontend Developer, specializing in scalable React & TypeScript web applications.",
+    "experience": "Professional Experience",
+    "education": "Education",
+    "skills": "Technical Skills",
+    "languages": "Languages",
+    "present": "Present",
+    "fullTime": "Full-time",
+    "gpa": "GPA",
+    "sepehr": {
+      "company": "Sepehr Company",
+      "location": "Tehran, Iran",
+      "role": "Front-End Developer & Team Lead",
+      "date": "July 2021 - Present",
+      "bullets": [
+        "Directed and mentored a front-end development team across multiple simultaneous healthcare projects, conducting regular code reviews to maintain code quality, consistency, and long-term maintainability.",
+        "Architected scalable front-end solutions for national-scale healthcare platforms serving government ministries, medical centers, and private organizations across the country.",
+        "Established front-end development standards, reusable component libraries, and shared design patterns that accelerated delivery across all company projects.",
+        "Partnered closely with UI/UX designers using Figma and Adobe XD to transform wireframes into pixel-perfect, fully responsive interfaces.",
+        "Enforced role-based access control (RBAC) systems across multiple platforms, supporting distinct workflows for doctors, patients, administrators, and receptionists."
+      ]
+    },
+    "eduList": [
+      {
+        "degree": "Master of Software Engineering",
+        "school": "Islamic Azad University — Science & Research Branch, Tehran, Iran",
+        "date": "2022 - 2025",
+        "gpa": "17.09 / 20"
+      },
+      {
+        "degree": "Bachelor of Computer Engineering",
+        "school": "Islamic Azad University — Tehran Branch, Tehran, Iran",
+        "date": "2017 - 2020",
+        "gpa": "18.16 / 20"
+      }
+    ],
+    "skillsCat": {
+      "core": "Core Technologies",
+      "state": "State Management",
+      "styling": "Styling & UI Libraries",
+      "frameworks": "Frameworks & Platforms",
+      "tools": "Tools & Design"
+    },
+    "langList": {
+      "fa": "Persian — Native",
+      "en": "English — Professional Working Proficiency"
+    },
+    "personalInfo": {
+      "title": "Personal Details",
+      "birthday": "Date of Birth",
+      "birthdayVal": "October 3, 1999 (11 Mehr 1378)",
+      "maritalStatus": "Marital Status",
+      "maritalStatusVal": "Single",
+      "militaryStatus": "Military Service",
+      "militaryStatusVal": "Completed"
+    }
+  },
+  "portfolio": {
+    "title": "📎 Portfolio",
+    "subtitle": "Unveiling the Art of Frontend: Explore my journey of architecting robust healthcare systems, telemedicine operations, and national-scale portals.",
+    "role": "Lead Frontend Developer",
+    "projects": {
+      "salam": {
+        "title": "Salam Operator — Ministry of Health National Healthcare Platform",
+        "subtitle": "National Telemedicine & Health Operator",
+        "desc": [
+          "Directed the front-end team in designing and delivering one of Iran's three official national health operator platforms under the Ministry of Health.",
+          "Built a comprehensive telemedicine system featuring online medical consultations, video and text-based appointment scheduling, and integrated patient health record management.",
+          "Integrated real-time communication features and seamless third-party services for patient data synchronization at national scale."
+        ]
+      },
+      "payesh": {
+        "title": "Payesh — Occupational Health Monitoring System",
+        "subtitle": "Multi-Tenant Enterprise Dashboard",
+        "desc": [
+          "Guided the front-end team in architecting a multi-tenant occupational health monitoring platform serving organizations and medical centers through role-based dashboards with granular permission controls.",
+          "Engineered 30+ specialized medical form modules covering organ-specific evaluations, audiometry, spirometry, and lab panels — leveraging Redux Toolkit for cross-form state persistence.",
+          "Crafted multi-step onboarding wizards with dynamic form logic, cascading dependent dropdowns, and SMS-based verification flows.",
+          "Designed a contract management pipeline connecting organizations to accredited medical centers for structured employee health monitoring services."
+        ]
+      },
+      "picopet": {
+        "title": "PicoPet — Veterinary Healthcare Platform",
+        "subtitle": "Bilingual Veterinary Portal",
+        "desc": [
+          "Architected the front-end of a bilingual (Persian/English) pet healthcare platform connecting pet owners with veterinarians for online appointment scheduling, digital prescriptions, and vaccination tracking.",
+          "Shipped feature modules for clinic and doctor discovery, visit history management, invoice processing, and role-based dashboards for clients, doctors, and administrators.",
+          "Delivered full RTL/Persian internationalization support alongside a seamless LTR English interface."
+        ]
+      },
+      "pharmacy": {
+        "title": "Sepehr Online Pharmacy System",
+        "subtitle": "Inventory & Order Management Portal",
+        "desc": [
+          "Directed the front-end team in architecting a comprehensive pharmacy management platform currently operational across multiple active branches.",
+          "Engineered modules for drug inventory tracking including expired medication management, multi-insurance prescription processing workflows, and an online storefront.",
+          "Designed and executed dedicated high-performance interfaces for pharmacists and administrative staff."
+        ]
+      },
+      "salamat": {
+        "title": "Sepehr Salamat — Medical Center Management System",
+        "subtitle": "Comprehensive Medical Office System",
+        "desc": [
+          "Engineered core front-end services for healthcare centers including insurance-supported prescription workflows, appointment scheduling, and comprehensive patient record management.",
+          "Crafted dedicated, high-performance user panels tailored specifically for doctors, receptionists, and patients with distinct workflows per role."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "📞 Contact Me",
+    "subtitle": "Reach out for professional networking, team leading advice, or collaboration on React & TypeScript applications.",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Phone",
+    "linkedinLabel": "LinkedIn",
+    "telegramLabel": "Telegram",
+    "githubLabel": "GitHub",
+    "whatsappLabel": "WhatsApp",
+    "emailSub": "Write me an email directly",
+    "phoneSub": "Call me or message on WhatsApp",
+    "linkedinSub": "Connect professionally on LinkedIn",
+    "telegramSub": "Instant messaging on Telegram",
+    "callNow": "Call now",
+    "viewProfile": "View profile",
+    "sendMessage": "Send message",
+    "copied": "Copied!",
+    "letsConnect": "Let's Connect",
+    "letsConnectSub": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision."
+  }
+}

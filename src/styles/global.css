@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@import "./font.css";
+
+@theme {
+  --font-IRANSans: "IRANSans", sans-serif;
+  --font-Inter: "Inter", "system-ui", "-apple-system", sans-serif;
+  --color-colorPrimary: #10b981; /* Emerald 500 */
+  --color-colorPrimaryHover: #059669; /* Emerald 600 */
+  --color-colorSecondary: #0284c7; /* Sky 600 */
+  --color-colorSecondaryHover: #0369a1; /* Sky 700 */
+  
+  --breakpoint-2xs: 300px;
+  --breakpoint-xs: 500px;
+
+  --animate-shimmer: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+/* Enable class-based dark mode in Tailwind v4 */
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: var(--font-Inter);
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Smooth page transitions and glassmorphism scrollbars */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.4);
+}
+
+/* Custom gradients & shadow tokens */
+.bg-glass {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .bg-glass {
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Ensure language-appropriate font family is applied everywhere */
+html[lang="fa"] body,
+html[lang="fa"] body * {
+  font-family: var(--font-IRANSans) !important;
+}
+
+html[lang="en"] body,
+html[lang="en"] body * {
+  font-family: var(--font-Inter) !important;
+}
+
+/* Hide autofill yellow background */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover,
+.dark input:-webkit-autofill:focus,
+.dark input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #0f172a inset !important;
+  -webkit-text-fill-color: #f8fafc !important;
+}
