@@ -40,7 +40,7 @@ const Contact: FC = () => {
           <h3 className="text-2xl md:text-3xl font-extrabold mb-3">
             {t("contact.letsConnect")}
           </h3>
-          <p className="text-sm md:text-base text-emerald-100 max-w-xl leading-relaxed">
+          <p className="text-sm md:text-base text-emerald-100 leading-relaxed">
             {t("contact.letsConnectSub")}
           </p>
 
